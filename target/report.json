@@ -1,0 +1,218 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2251548500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on add customer button",
+            "match": {
+              "location": "AddCustomerSteps.user_click_on_add_customer_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17019994900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeBackground()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "add customer flow",
+        "description": "",
+        "id": "add-customer-flow-validation;add-customer-flow",
+        "after": [
+          {
+            "result": {
+              "duration": 1714807200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 857780300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters all the feilds",
+            "match": {
+              "location": "AddCustomerSteps.user_enters_all_the_feilds()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2413395700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on submit button",
+            "match": {
+              "location": "AddCustomerSteps.user_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101836500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should be displayed customer id is generated",
+            "match": {
+              "location": "AddCustomerSteps.user_should_be_displayed_customer_id_is_generated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@karthi"
+          }
+        ]
+      }
+    ],
+    "name": "ADD CUSTOMER FLOW VALIDATION",
+    "description": "  I want to use this template for my feature file",
+    "id": "add-customer-flow-validation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/AddCustomer.feature",
+    "tags": [
+      {
+        "name": "@sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10550312800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeBackground()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "",
+        "description": "",
+        "id": "add-tariff-plan-validation;",
+        "after": [
+          {
+            "result": {
+              "duration": 834556000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1584965700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on AddTariffbutton",
+            "match": {
+              "location": "AddTariffPlanSteps.user_click_on_AddTariffbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 650712500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters all the fields",
+            "match": {
+              "location": "AddTariffPlanSteps.user_enters_all_the_fields()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1888324000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on submit Button",
+            "match": {
+              "location": "AddTariffPlanSteps.click_on_submit_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65090100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "It should display congratualtion you add tariffplan",
+            "match": {
+              "location": "AddTariffPlanSteps.it_should_display_congratualtion_you_add_tariffplan()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Add tariff plan validation",
+    "description": "",
+    "id": "add-tariff-plan-validation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/AddTariffPlan.feature",
+    "tags": []
+  }
+]
